@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/registration_form.css">
+    <link rel="shortcut icon"  type="image/x-icon" href="img/monitor-1307227_1920.jpg"><!-- logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet"><!-- h1 -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet">
+        <!-- name -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;900&display=swap" rel="stylesheet"><!-- enter your name -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;700&display=swap" rel="stylesheet"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet"><!-- radio -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1>Registration!</h1>
+        <form action="/action_page.php">
+            <!-- Name -->
+            <label for="fname">Your Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your name" required
+                onfocus="this.placeholder=''" onblur="this.placeholder='Enter your name'">
+
+            <!-- NRC -->
+            <label for="lname">Your NRC</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your NRC" required
+                onfocus="this.placeholder=''" onblur="this.placeholder='Enter your NRC'">
+
+            <!-- Gender -->
+            <label class="gen" for="">Gender</label>
+            <label id="r-lb">
+            <input  id="350" type="radio" class="r-btn" value="male" name="gender">Male
+            </label>
+            <label id="r-lb">
+            <input id="351" type="radio" class="r-btn1" value="female" name="gender">Female
+            </label>
+            <hr>
+
+            <label for="fname">Your Address</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your address" required
+                onfocus="this.placeholder=''" onblur="this.placeholder='Enter your address'">
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your email address" required
+                onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email'">
+
+            <label for="fname">Phone</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your phone number" required
+                onfocus="this.placeholder=''" onblur="this.placeholder='Enter your phone'">
+            <label for="lname">Your Qualification</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your qualification" required
+                onfocus="this.placeholder=''" onblur="this.placeholder='Enter your qualification'">
+
+            <label for="name">Your profile image</label>
+            <input type="file" class="input" name="myimage" accept="image/*" placeholder="No file chosen" required onfocus="this.placeholder=''"
+                onblur="this.placeholder='No file chosen'">
+            <hr>
+        <!--     select -->
+         <label for="class">Attended Class</label>
+            <select id="country" name="class">
+                <option value="intermediate">Intermediate Class</option>
+                <option value="class">Class</option>
+                <option value="class1">Class2</option>
+            </select>
+
+            <label for="course">Select Courses</label>
+            <select class="select" name="course">
+
+                <option value="" disabled selected hidden="" style="font-size: 20px " ;>course-1</option>
+
+                <option>course-2</option>
+                <option>course-3</option>
+                <option>course-4</option>
+            </select>
+       
+           <!--  date -->
+            <label for="class" class="label">Date</label>
+            <input type="date" class="date" placeholder="MM/DD/YY" required>
+            <!-- textarea -->
+            <label for="message">Message</label>
+            <textarea class="input" placeholder="Your message here.." onfocus="this.placeholder=''"
+                onblur="this.placeholder='Your message here..'"></textarea>
+            <button class="btn">Submit<i class="fa fa-long-arrow-right"></i> </button>
+        </form>
+    </div>
+</body>
+
+</html>

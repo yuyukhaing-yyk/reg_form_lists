@@ -1,0 +1,298 @@
+header{
+  background-image: url('../img/com.jpg');
+  background-size: cover;
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background-attachment: fixed;
+  /*height: 70%;*/
+
+}
+
+img{
+  padding: 30px 30px;
+}
+
+body{
+  margin:0;
+}
+h1{
+   max-width: 42%;
+   border-bottom: 1px solid white; 
+   border-left:none;
+   border-right: none; 
+   border-top: 1px solid white;
+   margin:auto;
+   /*padding: 0px 10px;*/
+   font-family: 'Poppins', sans-serif;
+  
+   text-align: center;
+}
+
+
+
+/*TABLE*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+td, th {
+  border: 1px solid lightgray;
+  text-align: left;
+  padding: 8px;
+}
+
+tr[id=t]:nth-child(even) {
+  background-color: #d5e0e6;
+}
+
+.search{
+  float: right;
+  padding-top: 10px;
+}
+.tab{
+  max-width: 1280px;
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 10px 10px;
+}
+select{
+  width: 5%;
+    background: #ffffff;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-top:10px; 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background: url("https://cdn0.iconfinder.com/data/icons/data-4/512/data-sort-both-512.png") 70% / 50% no-repeat ;
+    background-repeat: no-repeat;
+    background-position: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    /*font-weight: 500;*/
+    font-size: 15px;
+    margin-left: -2px;
+    font-family: 'Poppins', sans-serif; 
+}
+
+
+
+nav{
+  width: 100%;
+  background-color: #4591ba;
+  top:0;
+  position: sticky;
+padding:10px 0;
+/* height: 70px; */
+overflow: auto;
+}
+
+
+.main-foot{
+  width: 100%;
+  background-color: gray;
+  overflow: auto;
+}
+ 
+.navbar {
+    background-color: #4591ba;
+
+}
+.navigate{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/**/
+.navbar a {
+  float: right;
+  text-align: center;
+  margin-left: 40px;
+  padding-top: 10px;
+    color: white;
+  text-decoration: none;
+  font-size: 17px;
+    
+
+}
+
+ Navbar links on mouse-over 
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Current/active navbar link 
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+/*nav:hover{
+  background-color: skyblue;
+}*/
+.ft{
+  max-width: 100%;
+  background-color: gray;
+  margin-top: 10px;
+  color: #ffffff;
+}
+footer{
+  max-width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px;
+  background:black;
+  color:#ffffff;
+}
+#loc{
+  float: left;
+}
+.para{
+  float: left;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: block;
+  margin-bottom: 50px;
+}
+/*Pagination*/
+
+.pagination {
+  display: inline-block;
+  float:right;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  color:blue;
+}
+
+.pagination a.active {
+  background-color: blue;
+  color:white ;
+  border: 1px solid blue;
+}
+
+.pagination a:hover:not(.active) {background-color: blue;}
+
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+/*h1{
+  width: 50%;
+  text-align: center;
+}
+}
+
+hr{
+  width: 50%;
+}*/
+.up-fot{
+  clear: both;
+  background-color: gray;
+  /* float: left; */
+  max-width: 1280px;
+  margin: auto;
+  color: #ffffff;
+  padding: 30px 0;
+  overflow: auto;
+}
+.footer-left,.footer-middle,.footer-right{
+  width: 30%;
+}
+.footer-middle{
+  text-align: center;
+  float: left;
+  padding-top: 20px;
+
+}
+.footer-right{
+  text-align: center;
+  /*padding-right:20px;*/
+  padding-top: 20px;
+  float: right;
+}
+.footer-left{
+  text-align: center;
+  /*padding-left: 100px;*/
+  float: left;
+  padding-top: 20px;
+}
+.icon{
+  border:1px solid white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-top:10px;
+}
+
+.icon-facebook{
+  border:1px solid white;
+  padding: 10px 14px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.footer-bottom{
+  clear: both;
+  background-color: #211f20;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+td,th{
+  padding: 15px 10px;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+span{
+  margin-left: 100px;
+}
+.footer-middle i:hover{
+  background-color: #4591ba;
+  border-color: black;
+}
+.lab{
+  margin-right: 10px;
+}
+input[type=search]{
+  border:1px solid gray;
+}
